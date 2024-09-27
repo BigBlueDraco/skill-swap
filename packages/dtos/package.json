@@ -1,5 +1,5 @@
 {
-  "name": "my-lib",
+  "name": "@skill-swap/dtos",
   "version": "1.0.0",
   "description": "",
   "main": "./index.js",
@@ -10,5 +10,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@skill-swap/types": "*"
   }
 }

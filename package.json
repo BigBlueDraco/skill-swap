@@ -19,5 +19,10 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@nestjs/swagger": "^7.4.2",
+    "@prisma/client": "^5.20.0",
+    "class-transformer": "^0.5.1"
+  }
 }
